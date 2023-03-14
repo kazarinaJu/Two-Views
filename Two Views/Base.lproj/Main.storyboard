@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LQG-hN-ZbX">
-                                <rect key="frame" x="16" y="438" width="361" height="360"/>
+                                <rect key="frame" x="16" y="448" width="361" height="350"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wkE-ft-uXv">
-                                <rect key="frame" x="16" y="59" width="361" height="360"/>
+                                <rect key="frame" x="16" y="79" width="361" height="350"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
                         </subviews>
@@ -32,7 +32,7 @@
                             <constraint firstItem="LQG-hN-ZbX" firstAttribute="top" secondItem="wkE-ft-uXv" secondAttribute="bottom" constant="19" id="HIH-fc-NoM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LQG-hN-ZbX" secondAttribute="bottom" constant="20" id="Oau-N6-A9a"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LQG-hN-ZbX" secondAttribute="trailing" constant="16" id="PfF-kK-fqI"/>
-                            <constraint firstItem="wkE-ft-uXv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Vtt-B9-XVL"/>
+                            <constraint firstItem="wkE-ft-uXv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Vtt-B9-XVL"/>
                             <constraint firstItem="wkE-ft-uXv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="eA9-Pr-n85"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wkE-ft-uXv" secondAttribute="trailing" constant="16" id="sG9-NU-84S"/>
                             <constraint firstItem="LQG-hN-ZbX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="weA-3q-Aat"/>
